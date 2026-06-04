@@ -112,8 +112,8 @@ if predict_btn:
         st.markdown("---")
 
     profile_df =pd.DataFrame({
-        "Feature": list(input.keys()),
-        "Value": list(input.values())
+        "Feature": list(input_dict.keys()),
+        "Value": list(input_dict.values())
     })
     st.subheader("📊 Your Performance Profile")
     st.bar_chart(profile_df.set_index("Feature"),horizontal=True,height=500)
