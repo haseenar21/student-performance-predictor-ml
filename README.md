@@ -1,7 +1,7 @@
-# student-performance-analyzer-ml
+# student-performance-predictor-ml
 This is a ML web application that predicts a student's exam score based on academic performance, lifestyle, and environmental factors. It uses multiple regression models, hyperparameter tuning, and a Streamlit interface to deliver real-time predictions in an interactive dashboard.
 
-# Live Demo - 
+# Live Demo - https://ml-student-performance-predictor.streamlit.app/
 
 # Live Features
 - Predict student exam score in real-time
